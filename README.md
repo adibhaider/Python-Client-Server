@@ -1,10 +1,9 @@
 # Python Client-Server
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 ## Table of Contents
 * Background
 * Install
 * Usage
-* Generator
-* Badge
 * Example Readmes
 * Related Efforts
 * Maintainers
@@ -12,15 +11,15 @@
 * License
 ## Background
 ## Install
+
+## Usage
+This is only a documentation package.
 ```python
 python3 server.py
 ```
 ```python
 python3 client.py
 ```
-## Usage
-## Generator
-## Badge
 ## Examples
 ## Related Efforts
 [python-client-server](https://github.com/pricheal/python-client-server) - A basic example of a TCP client/server network using Python's socket and threading library.
