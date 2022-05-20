@@ -2,12 +2,10 @@ import socket
 import encrypt
 from cryptography.fernet import Fernet
 
-HOST = "127.0.0.1"  # Localhost
-PORT = 5050
-
+socket_address = ("127.0.0.1",5050) # Localhost on port 5050
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
-    server.bind((HOST, PORT))
+    server.bind((socket_address))
     server.listen()
     connection, address = server.accept()
     with connection:
