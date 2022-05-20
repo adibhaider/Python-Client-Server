@@ -1,23 +1,25 @@
 # Python Client-Server
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 ## Table of Contents
-* Background
-* Install
-* Usage
-* Example Readmes
-* Related Efforts
-* Maintainers
-* Contributing
-* License
+* [Background]
+* [Install]
+* [Usage]
+* [Example Readmes]
+* [Related Efforts]
+* [Maintainers]
+* [Contributing]
+* [License](#license)
 ## Background
 ## Install
-
+```bash
+git clone https://github.com/adibhaider/Python-Client-Server.git
+```
 ## Usage
 This is only a documentation package.
-```python
+```bash
 python3 server.py
 ```
-```python
+```bash
 python3 client.py
 ```
 ## Examples
