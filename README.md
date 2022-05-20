@@ -1,13 +1,13 @@
 # Python Client-Server
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 ## Table of Contents
-* [Background]
-* [Install]
-* [Usage]
-* [Example Readmes]
-* [Related Efforts]
-* [Maintainers]
-* [Contributing]
+* [Background](#background)
+* [Install](#install)
+* [Usage](#usage)
+* [Examples](#examples)
+* [Related Efforts](#related-efforts)
+* [Maintainers](#maintainers)
+* [Contributing](#contributing)
 * [License](#license)
 ## Background
 ## Install
