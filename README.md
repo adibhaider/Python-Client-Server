@@ -10,17 +10,21 @@
 * [Contributing](#contributing)
 * [License](#license)
 ## Background
+This program creates a simple, locally hosted client-server network with Python.
+
+The local machine acts as the client and server (with separate directories). And the former sends a serialised Python dictionary or a file from its directory to the latter's directory.
 ## Install
+This program requires [Python3](https://www.python.org/downloads/). Additionaly, ensure access to the following Python modules: [socket](https://docs.python.org/3/library/socket.html), [json](https://docs.python.org/3/library/json.html), [Fernet](https://cryptography.io/en/latest/fernet/), and [dicttoxml](https://pypi.org/project/dicttoxml/). (The former two are built-in.)
 ```bash
-git clone https://github.com/adibhaider/Python-Client-Server.git
+$ git clone https://github.com/adibhaider/Python-Client-Server.git
 ```
 ## Usage
 This is only a documentation package.
 ```bash
-python3 server.py
+$ python3 server.py
 ```
 ```bash
-python3 client.py
+$ python3 client.py
 ```
 ## Examples
 To see how the program has been applied, see the [Examples](https://github.com/adibhaider/Python-Client-Server/tree/main/Examples).
