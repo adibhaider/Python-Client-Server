@@ -23,7 +23,7 @@ python3 server.py
 python3 client.py
 ```
 ## Examples
-To see how the program has been applied, see the [Examples](www.google.com).
+To see how the program has been applied, see the [Examples](https://github.com/adibhaider/Python-Client-Server/tree/main/Examples).
 ## Related Efforts
 [python-client-server](https://github.com/pricheal/python-client-server) - A basic example of a TCP client/server network using Python's socket and threading library.
 ## Maintainers
