@@ -32,6 +32,7 @@ To see how the program has been applied, see the [Examples](https://github.com/a
 [python-client-server](https://github.com/pricheal/python-client-server) - A basic example of a TCP client/server network using Python's socket and threading library.
 ## Maintainers
 [@adibhaider](https://github.com/adibhaider)
+[emiliotou22](https://github.com/emiliotou22)
 ## Contributing
 Feel free to dive in! [Open an issue](https://github.com/adibhaider/Python-Client-Server/issues/new) or submit PRs.
 
