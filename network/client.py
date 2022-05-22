@@ -1,13 +1,13 @@
-# Imports
+"""
+Creates a Client and sends a message to the Server 
+"""
+
 import socket
-
-import encrypt
-
-import pickling
+from encrypt import *
+from pickling import *
 
 # Variables
-
-encryption_required = False # Only for files
+encryption_required = True # Only for files
 socket_address = ("127.0.0.1", 5050)  # Localhost on port 5050
 
 # Sample dictionary
@@ -18,22 +18,20 @@ cars = {
     "Hornet 4 Drive": {"mpg": 21.4, "cyl": 6, "disp": 258, "hp": 110}
 }
 
-
 # Code begins
 def main():
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as server:
         server.connect(socket_address)
 
-        # Send a dictionary through pickling
-        # server.sendall(pickling.to_json(cars))
-
-        # Send a file
+        # Encrypts and sends a file
         if encryption_required:
-            encrypt.encrypt("./data.txt")
-            server.sendall(encrypt.read_file("./encrypted_file.txt")) # Send file to the server
+            encryption("./data.txt")
+            server.sendall(read_file("./encrypted_file.txt")) # Send file to the server
         else:
-            server.sendall(encrypt.read_file("./data.txt"))
-
+            server.sendall(read_file("./data.txt"))
+        
+        # Uncommend to send a dictionary through pickling and comment lines 27-31
+        # server.sendall(to_json(cars))
 
 if __name__ == "__main__":
     main()
