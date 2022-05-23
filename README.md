@@ -18,10 +18,11 @@ This program requires [Python3](https://www.python.org/downloads/). Additionaly,
 $ git clone https://github.com/adibhaider/Python-Client-Server.git
 ```
 ## Usage
-This is only a documentation package.
+Run the Python server first.
 ```bash
 $ python3 server.py
 ```
+Run the client after the server is running.
 ```bash
 $ python3 client.py
 ```
