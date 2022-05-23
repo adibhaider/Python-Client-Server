@@ -1,36 +1,36 @@
 """
-Pickling process to serialize and de-serialize a dictionary inot different either JSON, XML, or binary format
+Pickling process to serialize and de-serialize an object inot different either JSON, XML, or binary format
 """
 
 import json, pickle
 from dicttoxml import dicttoxml
 
-def to_json(dictionary: dict()) :
+def to_json(object: dict()) :
     """
-    Converts "dictionary" to JSON and returns it
+    Converts "object" to JSON and returns it
 
     Parameters:
-        dictionary (dict): a dictionary list 
+        object (dict): a dictionary list 
     """
-    return json.dumps(dictionary).encode("utf-8")
+    return json.dumps(object).encode("utf-8")
 
 
-def to_xml(dictionary: dict()):
+def to_xml(object: dict()):
     """
-    Converts "dictionary" to XML and returns it
+    Converts "object" to XML and returns it
     
     Parameters:
-        dictionary (dict): a dictionary list 
+        object (dict): a dictionary list 
     """
-    return dicttoxml(dictionary)
+    return dicttoxml(object)
 
 
-def to_bin(dictionary: dict()):
+def to_bin(object: dict()):
     """
-    Converts "dictionary" to binary and returns it
+    Converts "object" to binary and returns it
     
     Parameters:
-        dictionary (dict): a dictionary list """
-    string = json.dumps(dictionary)
+        object (dict): a dictionary list """
+    string = json.dumps(object)
     # Return the binary "str" file
     return ' '.join(format(ord(letter), 'b') for letter in string).encode("utf-8")

@@ -8,7 +8,7 @@ from cryptography.fernet import Fernet
 
 socket_address = ("127.0.0.1", 5050) # Initiates server's IP address and socket port
 
-def main(encrypted_file=False, write_output=True, print_required=True):
+def main(encrypted_file: bool, write_output: bool, print_required: bool):
     """
     This function creates a server to listen and accept client connections and decrypt messages from clients.
     
@@ -48,4 +48,4 @@ def main(encrypted_file=False, write_output=True, print_required=True):
 
 if __name__ == "__main__":
     # Set the encrypted_required argument to False if sending a dictionary
-    main(encrypted_file=False, write_output=False, print_required=True)
+    main(encrypted_file=True, write_output=False, print_required=True)
