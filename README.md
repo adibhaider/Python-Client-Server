@@ -4,7 +4,6 @@
 * [Background](#background)
 * [Install](#install)
 * [Usage](#usage)
-* [Examples](#examples)
 * [Related Efforts](#related-efforts)
 * [Maintainers](#maintainers)
 * [Contributing](#contributing)
@@ -26,8 +25,6 @@ $ python3 server.py
 ```bash
 $ python3 client.py
 ```
-## Examples
-To see how the program has been applied, see the [Examples](https://github.com/adibhaider/Python-Client-Server/tree/main/Examples).
 ## Related Efforts
 [python-client-server](https://github.com/pricheal/python-client-server) - A basic example of a TCP client/server network using Python's socket and threading library.
 ## Maintainers
